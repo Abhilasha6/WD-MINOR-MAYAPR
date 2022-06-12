@@ -51,7 +51,7 @@ section{
 }
 section h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* text-shadow: 0 0 3px #00ffc8, 0 0 5px #a600ff; */
+    text-shadow: 0 0 5px #00ffc8;
     font-weight: bold;
 }
 section h1:hover{
