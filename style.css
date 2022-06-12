@@ -88,6 +88,7 @@ section img:hover{
 .flex-container .footer{
     margin: 70px auto;
     padding: 0;
+    width: auto;
     font-family: cursive;
     font-weight:bold ;
     color:#cbb4b4;
