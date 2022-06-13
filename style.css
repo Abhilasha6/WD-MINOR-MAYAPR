@@ -15,12 +15,17 @@
   body{
     width: 100%;
     margin: 0;
-    background-image: linear-gradient(to bottom right, black, rgb(11, 43, 11),rgb(39, 76, 39), rgb(0, 100, 48),rgb(43, 138, 110),rgb(35, 129, 88),rgb(13, 60, 49), rgb(14, 30, 31), black);
-    /* background-image: url(https://images.unsplash.com/photo-1616075278467-b085da3ab030?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVhY29jayUyMGZlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60); */
+    background-image: linear-gradient(130deg, rgb(233, 212, 185),lightyellow, yellow,rgba(255, 200, 0, 0.991), orange,rgb(255, 0, 115), rgb(137, 58, 95),purple);
+    /* background-image: linear-gradient(to bottom right, black, rgb(11, 43, 11),rgb(39, 76, 39), rgb(0, 100, 48),rgb(31, 168, 150),rgb(43, 138, 110),rgb(35, 129, 88),rgb(13, 60, 49), rgb(14, 30, 31), black); */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq_em8DxpSS7dqf2bq1VOOSn67IB7_6Mf6dQ&usqp=CAU); */
     background-size: cover;
     background-repeat: no-repeat;
     /* filter: blur(5px); */
   }
+  /* .bg-image{
+        background-image: url(https://images.unsplash.com/photo-1616075278467-b085da3ab030?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGVhY29jayUyMGZlYXRoZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60);
+        filter: blur(5px);
+  } */
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -36,10 +41,11 @@
     align-items: center;
     margin: auto;
     height: 100px;
-    /* font-family: monospace; */
+    font-family: 'Fredoka One', cursive;
     font-size: xx-large;
     font-weight:bolder ;
-    color:#cbb4b4;
+    color: beige;
+    /* color:#cbb4b4; */
     text-shadow: 0 0 3px #ff00e6, 0 0 5px #ff006f;
 }
 section{
@@ -50,7 +56,9 @@ section{
     width: 700px;
 }
 section h1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Fascinate Inline', cursive;
+    font-size: xx-large;
     text-shadow: 0 0 5px #00ffc8;
     font-weight: bold;
 }
@@ -59,9 +67,12 @@ section h1:hover{
 }
 section p{
     /* justify-content: space-evenly; */
-    color: rgb(151 185 181);
+    color: black;
+    /* color: rgb(151 185 181); */
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Comfortaa', cursive;
+    text-shadow: 0 0 5px rgb(76, 255, 154);
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 section img{
     width: 500px;
@@ -88,7 +99,7 @@ section img:hover{
 .flex-container .footer{
     margin: 70px auto;
     padding: 0;
-    width: auto;
+    width: 100%;
     font-family: cursive;
     font-weight:bold ;
     color:#cbb4b4;
