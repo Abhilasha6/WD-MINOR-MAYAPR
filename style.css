@@ -53,7 +53,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
+    width: 100%;
 }
 section h1{
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -71,6 +71,7 @@ section h1:hover, .flex-container .header:hover, .flex-container .footer:hover{
 section p{
     /* justify-content: space-evenly; */
     color: black;
+    padding: 0 20px;
     /* color: rgb(151 185 181); */
     text-align: justify;
     font-family: 'Comfortaa', cursive;
@@ -78,9 +79,10 @@ section p{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 section img{
-    width: 500px;
-    height: 400px;
-    object-fit:fill;
+    width: 30%;
+    /* height: 400px; */
+    object-fit: cover;
+    aspect-ratio: 1/1;
     margin: 10px auto;
     display: block;
     border-radius: 8px;
@@ -94,7 +96,7 @@ section img{
   } */
 
 section img:hover{
-    width: 650px;
+    /* width: ; */
    transition: transform .2s; /* Animation */
    transform: scale(1.1);
     box-shadow: 5px 5px 8px #679a84;
